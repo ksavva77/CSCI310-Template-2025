@@ -1,67 +1,17 @@
 """
-hello.py
+NUMBERS1-N.py
 ====================================
 This is an example file with correct docstring examples
 
-| Author: Seth McNeill
-| Date: 2025 September 07
+| Author: Kyriacos Savva
+| Date: 2026 3 September
 """
-
-class SayHello:
-    """
-    Base class example
-    
-    This class provides an example to work from
-    
-    Parameters
-    ----------
-    name : str
-        The user's name
-    
-    Attributes
-    ----------
-    name : str
-        The user's name
-        
-    Examples
-    --------
-    >>> hello = SayHello("Bob")
-    >>> hello.greet(', welcome!')
-    Hello Bob, welcome!
-    """
-    
-    def __init__(self, name):
-        """
-        Initialize a new SayHello instance.
-        
-        Parameters
-        ----------
-        name : str
-            The user's name
-        """
-        self.name = name
-   
-    def greet(self, extraText):
-        """
-        Greets self.name and adds extraText to the output.
-        
-        Parameters
-        ----------
-        extraText : str
-            Text to add after the hello username
-            
-        Returns
-        -------
-        int
-            An integer as an example of returning a value
-        """
-        print(f'Hello {self.name}{extraText}')
-        return len(self.name)
+def count_to_n(target=10_000_000):
+    for i in range(1, target + 1):
+        # Processing each number
+        pass
+    print(f"Finished counting up to {target:,}!")
 
 
-if __name__ == '__main__':
-    """Runs if file called as script as opposed to being imported as a library
-    """
-    bob = SayHello('Bob')
-    bobLen = bob.greet(', welcome!')
-    print(bobLen)
+if __name__ == "__main__":
+    count_to_n()
