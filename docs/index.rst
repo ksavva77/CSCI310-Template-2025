@@ -1,12 +1,7 @@
-.. NUMBERS-1-N documentation master file, created by
-   sphinx-quickstart on Thu Sep  3 12:06:10 2026.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-NUMBERS-1-N documentation
+This is HMW07 about Trees exersices.
 =========================
 
-NUKBERS 1-N EXERCISE
+HMW07 - TREES
 
 .. automodule:: NUMBERS-1-N
    :members:

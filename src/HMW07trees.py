@@ -1,10 +1,10 @@
 """
-NUMBERS1-N.py
+HMW07trees.py
 ====================================
-This is an example file with correct docstring examples
+This is an example file with trees.
 
 | Author: Kyriacos Savva
-| Date: 2026 3 September
+| Date: 2026 25 September
 """
 def count_to_n(target=10_000_000):
     for i in range(1, target + 1):
