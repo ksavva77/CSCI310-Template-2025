@@ -1,4 +1,4 @@
 # CSCI310-Template
 Template for assignments in CSCI310
 
-numbers 1-N EXERCISE
+HMW07 - TREES
